@@ -162,7 +162,7 @@ Fraudulent transactions refer to any unauthorized, malicious, or deceitful purch
 2. Deploy ML Model as a Low-Latency Microservice
 3. Async + Sync Mode Hybrid Design
    - **Synchronous**: For high-risk operations (e.g., payment), the fraud system is called before confirming the transaction.
-   - **Asynchronous**:  For lower-risk steps (like account creation or item addition), fraud checks can run post-event, flagging for review.
+   - **Asynchronous**: For lower-risk steps (like account creation or item addition), fraud checks can run post-event, flagging for review.
 4. Precompute Risk Signals / Features
 5. Risk Scoring Instead of Rule Evaluation
 
