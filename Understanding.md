@@ -136,14 +136,14 @@ Fraudulent transactions refer to any unauthorized, malicious, or deceitful purch
 
 ## Technology Stack
 
-| Layer                | Tools/Tech                                        |
-|---------------------|---------------------------------------------------|
-| Ingestion            | Kafka / AWS Kinesis / Webhook API Gateway       |
-| Real-Time Scoring    | Java/Spring Boot / Node.js / Python FastAPI      |
-| Rule Engine          | Drools / Custom DSL                              |
+| Layer                | Tools/Tech                                          |
+|---------------------|-----------------------------------------------------|
+| Ingestion            | Kafka                                |
+| Real-Time Scoring    | Java/Spring Boot / Node.js / Python FastAPI         |
+| Rule Engine          | Drools / Custom DSL                                 |
 | ML Model Deployment  | TensorFlow Serving / Seldon / AWS SageMaker Endpoint |
-| Feature Store        | Redis           |
-| Monitoring/Alerts    | Prometheus / Grafana / ELK                 |
+| Feature Store        | Redis                                               |
+| Monitoring/Alerts    | Prometheus / Grafana / ELK                          |
 
 ---
 
